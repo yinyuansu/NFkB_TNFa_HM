@@ -14,6 +14,7 @@ Here's a quick start guide to get you started:
 
 
 ### Code and data
+If the **data** and **matdata** folders cannot be downloaded due to Git LFS bandwidth limitation, please refer to [this link](https://140.129.68.214/share.cgi?ssid=0QiKvWs).
 
 `src/:`
 * Hallmark_list.txt: A text file containing a list of target hallmark gene sets.
@@ -41,7 +42,7 @@ Here's a quick start guide to get you started:
 
 `log_cHM_120_1000/:` Log files of ensemble learning models.
 
-`Third-party software:` The SVM algorithm of our ensemble learning model is implemented using the libSVM library. We have provided the executable binary files for convenience. For more details, please refer to the *libSVM website* and the *src/libSVM_readme* file.
+`Third-party software:` The SVM algorithm of our ensemble learning model is implemented using the libSVM library. We have provided the executable binary files for convenience. For more details, please refer to the [*libSVM website*](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) and the *src/libSVM_readme* file.
     
     src/:
 	    svmpredict.mexw64: Executable binary file for the SVM prediction function.
